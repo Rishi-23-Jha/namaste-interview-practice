@@ -1,5 +1,4 @@
 function factorial(n) {
-  // Reject non-numbers, NaN, non-integers, and negatives
   if (typeof n !== 'number' || !Number.isInteger(n) || n < 0) {
     return false;
   }
