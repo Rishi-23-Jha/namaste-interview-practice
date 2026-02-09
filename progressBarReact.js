@@ -26,8 +26,6 @@ function ProgressBar() {
                 <div style={{
                     width: `${value}%`,
                     backgroundColor: getColor()
-
-
                 }}
                     id='testBgColor'>
 
